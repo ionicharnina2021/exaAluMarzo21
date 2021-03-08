@@ -1,3 +1,5 @@
+import { PaseadorService } from './../providers/paseador.service';
+import { AtraccionesService } from './../providers/atracciones.service';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,6 +9,6 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  constructor(private atracciones:AtraccionesService, private paseador:PaseadorService) {}
 
 }

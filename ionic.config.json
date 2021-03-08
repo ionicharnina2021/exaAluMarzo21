@@ -1,5 +1,7 @@
 {
   "name": "exaAluMarzo21",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
